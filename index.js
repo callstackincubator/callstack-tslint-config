@@ -12,6 +12,7 @@ module.exports = {
     'function-name': [true, {
       'static-method-regex': '^[a-z][\\w\\d]+$'
     }],
+    'no-unsafe-any': { severity: 'warning' },
     'no-default-export': false,
     'no-relative-imports': false,
     'export-name': false,
