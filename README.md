@@ -1,5 +1,7 @@
 # @callstack/tslint-config
 
+[![Version][version]][package]   
+
 [![PRs Welcome][prs-welcome-badge]][prs-welcome]
 [![MIT License][license-badge]][license]
 [![Chat][chat-badge]][chat]
@@ -33,3 +35,6 @@ Add to your TSLint config (`tslint.json` or `tslint.yaml`):
 [coc]: https://github.com/callstackincubator/callstack-tslint-config/blob/master/CODE_OF_CONDUCT.md
 [chat-badge]: https://img.shields.io/badge/chat-discord-brightgreen.svg?style=flat-square&colorB=7289DA&logo=discord
 [chat]: https://discord.gg/zwR2Cdh
+
+[version]: https://img.shields.io/npm/v/@callstack/tslint-config.svg?style=flat-square
+[package]: https://www.npmjs.com/package/@callstack/tslint-config

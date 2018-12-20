@@ -1,9 +1,19 @@
 {
   "name": "@callstack/tslint-config",
   "version": "0.1.0",
-  "description": "Callstack TSLint config",
+  "description": "Callstack TSLint config with Prettier and reasonable defaults based on tslint-microsoft-contrib and tslint-react.",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callstackincubator/callstack-tslint-config.git"
+  },
+  "keywords": ["tslint", "tslint config", "callstack"],
+  "author": "Paweł Trysła <zamotany.oss@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/callstackincubator/callstack-tslint-config/issues"
+  },
+  "homepage": "https://github.com/callstackincubator/callstack-tslint-config",
   "scripts": {
     "test": "cd test && yarn && yarn lint && cd .."
   },
