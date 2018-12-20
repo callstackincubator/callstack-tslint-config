@@ -1,6 +1,7 @@
 {
   "name": "@callstack/tslint-config",
   "version": "0.1.0",
+  "private": false,
   "description": "Callstack TSLint config with Prettier and reasonable defaults based on tslint-microsoft-contrib and tslint-react.",
   "main": "index.js",
   "license": "MIT",
