@@ -46,5 +46,6 @@ module.exports = {
     // React overrides
     'jsx-boolean-value': [true, 'never'],
     'jsx-no-multiline-js': false,
+    'use-simple-attributes': false,
   }
 }
