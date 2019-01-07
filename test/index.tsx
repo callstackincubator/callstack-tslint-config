@@ -35,17 +35,21 @@ export default class MyComponent extends React.Component<Props, State> {
 export class MyClass {
   readonly property1: boolean = true;
 
+  readonly children: MyClass[] = [];
+
   private property2?: string;
 
   logProperty(times: number = 1) {
-    this.assignProperty();
+    this.assignProperty([{ message: 'hey' }]);
     for (let i = 0; i < times; i += 1) {
       // tslint:disable-next-line: no-console
       console.log(this.property2);
     }
   }
 
-  private assignProperty() {
-    this.property2 = 'Hey';
+  private assignProperty(msgs: Array<{ message: string }>) {
+    this.property2 = msgs
+      .map(({ message }: { message: string }) => message)
+      .join('');
   }
 }
